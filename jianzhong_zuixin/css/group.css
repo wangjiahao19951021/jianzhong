@@ -11,7 +11,7 @@
 	right: 0;
 	bottom: 0;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 10%;
 	color: white;
 }
 .group-introduction-box{
@@ -47,6 +47,10 @@ iframe{
 	position: relative;
 	background: url(../images/group/map_beijing@2x1.png) no-repeat center;
 	background-size: 100% 100%;
+	 /*针对IE8的hack，目的是除掉之前background*/
+    background: none\9;
+    /*下一行为关键设置*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/group/map_beijing@2x1.png', sizingMethod='scale');
 }
 .zhezhao{
 	position: fixed;
@@ -166,7 +170,10 @@ iframe{
     top: 29%;
     left: 84%;
 }
-
+.group_beijing{
+    top: 33%;
+    left: 73%;
+}
 
 .group_tenggeli .aa{
 	top: -673%;

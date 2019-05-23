@@ -42,7 +42,14 @@
     left: 228px;
     top: 142px;
 }
-
+.group_hover-for{
+	width: 35%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    left: 228px;
+    top: 33px;
+}
 .one_hover-cont{
     width: 100%;
     height: auto;
@@ -122,4 +129,9 @@
     margin-top: 0;
     margin-bottom: 0;
     color: #00E4FF;
+}
+.three_hover-cont{
+	position: absolute;
+	top: -11px;
+	left: 275px;
 }
