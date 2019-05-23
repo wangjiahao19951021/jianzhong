@@ -1,0 +1,54 @@
+/* 联系我们样式 */
+
+
+.main-filiale-box{
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+.internet-filiale-box{
+    margin-top: 2rem;
+}
+.material-filiale-box{
+    margin-bottom: 2rem;
+}
+.title-material-filiale{
+    margin-bottom: 0.5rem;
+}
+.title-material-filiale > div > h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+}
+.title-material-filiale > div > span{
+    display: inline-block;
+    width: 5rem;
+    text-align: center;
+    border-bottom: 3px solid #8e0109;
+}
+.main-material-filiale > div{
+    padding-left: 7rem;
+}
+.main-material-filiale > div > p{
+    margin-top: 2rem;
+}
+.title-other-filiale{
+    margin-bottom: 0.5rem;
+}
+.title-other-filiale > div > h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+}
+.title-other-filiale > div > span{
+    display: inline-block;
+    width: 5rem;
+    text-align: center;
+    border-bottom: 3px solid #8e0109;
+}
+.main-other-filiale > div{
+    padding-left: 7rem;
+}
+.main-other-filiale > div > p{
+    margin-top: 2rem;
+}

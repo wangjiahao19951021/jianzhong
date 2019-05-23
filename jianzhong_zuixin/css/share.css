@@ -1,0 +1,96 @@
+/* 各页面共用样式 */
+/* 头部样式 */
+.wrap-header-box{
+    width: 100%;
+    height: auto;
+    padding-top: 1.5rem;
+}
+.header-logo{
+    width: 30%;
+    float: left;
+}
+.nav-header{
+    width: 62%;
+    height: auto;
+    float: left;
+    padding-left: 35rem;
+}
+.nav-header li{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.nav-header li span{
+    display: inline-block;
+    width: 1rem;
+    height: 0.8rem;
+    border-right: 2px solid #1d1d1d;
+}
+
+/* 中英文切换样式 */
+.languageTab-header{
+    width: 8%;
+    height: 1.5625rem;
+    background-color: #FFFFFF;
+    position: relative;
+    float: left;
+}
+.languageTab-header>span{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.cn-active{
+    border-top: 18px solid red;
+    border-right: 12px solid transparent;
+    color: #FFFFFF;
+}
+.en-active{
+    border-bottom: 18px solid red;
+    border-left: 12px solid transparent;
+    color: #FFFFFF;
+}
+
+/* 底部样式 */
+.wrap-foot-box{
+    width: 100%;
+    height: auto;
+    background-color: #313131;
+    color: #FFFFFF;
+}
+.main-foot-about{
+    background-color: #313131;
+    padding-bottom: 0.5rem;
+}
+.nav-foot{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.cont-foot{
+    margin-top: 0.5rem;
+    color: #bcbcbc;
+}
+.cont-foot p{
+    margin-top: 2.4rem;
+    display: inline-block;
+}
+.erweima-foot{
+    padding-top: 2rem;
+}
+.erweima-foot>img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 1rem;
+}
+.erweima-foot > p{
+    margin-top: 1rem;
+}
+.main-foot-copyright{
+    background-color: #1f1f1f;
+    text-align: center;
+    color: #b7b7b7;
+}
+.main-foot-copyright p{
+    margin-top: 0.625rem;
+}
+/* 各页面共用样式结束 */

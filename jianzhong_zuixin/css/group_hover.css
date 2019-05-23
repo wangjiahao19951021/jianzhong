@@ -1,0 +1,125 @@
+/* 集团业务hover样式 */
+
+.wrap-group_hover-box {
+    width: 400px;
+    height: 200px;
+    /*background: rgba(29, 29, 29, 0.8);*/
+    margin: 80px auto;
+}
+
+.main-group_hover-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.group_hover-one {
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: 52px;
+    left: 45px;
+}
+
+.group_hover-two {
+    width: 15%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 47px;
+    left: 177px;
+}
+.group_hover-two > h4{
+    color: #52FFFF;
+}
+.group_hover-three {
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    left: 228px;
+    top: 142px;
+}
+
+.one_hover-cont{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+
+.one_hover-cont img{
+    vertical-align: baseline !important;
+}
+
+.one_hover-cont .L_hover-cont{
+    width: 10%;
+    height: auto;
+    display: inline-block;
+}
+
+.one_hover-cont .R_hover-cont{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.one_hover-cont .R_hover-cont > h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00E4FF;
+    font-size: 1.5rem;
+}
+
+.one_hover-cont .R_hover-cont > p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00E4FF;
+}
+
+.two_hover-cont{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 265px;
+    top: 126px;
+    text-align: left;
+}
+
+.two_hover-cont img{
+    vertical-align: baseline !important;
+}
+
+.two_hover-cont .L_hover-cont{
+    width: 10%;
+    height: auto;
+    display: inline-block;
+}
+
+.two_hover-cont .R_hover-cont{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.two_hover-cont .R_hover-cont > h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00E4FF;
+    font-size: 1.5rem;
+}
+
+.two_hover-cont .R_hover-cont > p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00E4FF;
+}

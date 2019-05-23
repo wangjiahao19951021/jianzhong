@@ -1,0 +1,127 @@
+/*集团子公司遮罩样式*/
+body {
+  background-color: #FFFFFF;
+}
+
+.wrap-subsidiary-box {
+  width: 100%;
+  height: 100%;
+  background: rgba(29, 29, 29, 0.8);
+  position: relative;
+}
+
+.main-subsidiary-box {
+  width: 75rem;
+  height: 45rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../images/subsidiary/baotou/bgc_1.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.cont-subsidiary-box {
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+}
+
+.title-subsidiary {
+  color: #06d2df;
+}
+
+.cont-subsidiary {
+  margin-top: 1.5rem;
+}
+
+.cont-subsidiary p {
+  color: #07c6d2;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  line-height: 2rem;
+  text-indent: 2rem;
+  font-weight: 600;
+}
+
+.cont_jt-subsidiary>img {
+  width: 20px;
+  margin: 1rem;
+}
+
+.cont_jt-subsidiary>img:first-child {
+  margin-right: 3rem;
+}
+
+.T_rhombus-img {
+  width: 100%;
+  height: 18rem;
+  position: relative;
+}
+
+.T_rhombus-img>.T_rhombus-one {
+  width: 22rem;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.T_rhombus-img>.T_rhombus-two {
+  width: 22rem;
+  position: absolute;
+  margin: auto;
+  top: 7px;
+  left: 0;
+  right: -10px;
+}
+
+.B_rhombus-img {
+  width: 100%;
+  height: 12rem;
+  position: relative;
+}
+
+.B_rhombus-img>.B_rhombus-one {
+  width: 8rem;
+  position: absolute;
+  left: 16px;
+  bottom: 0;
+}
+
+.B_rhombus-img>.B_rhombus-two {
+  width: 8rem;
+  position: absolute;
+  right: 16px;
+  top: 0;
+}
+
+.cont_fy-subsidiary {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.cont_fy-subsidiary img {
+  width: 15px;
+}
+.cont_fy-subsidiary p {
+  display: inline-block;
+}
+.L_fy-subsidiary > p{
+    padding-left: 2rem;
+}
+.R_fy-subsidiary > p{
+    padding-right: 3rem;
+}
+.L_fy-subsidiary:hover p{
+    color: #00c1de;
+    cursor: pointer;
+}
+.R_fy-subsidiary:hover p{
+    color: #00c1de;
+    cursor: pointer;
+}

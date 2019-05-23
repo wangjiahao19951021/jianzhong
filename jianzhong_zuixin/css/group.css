@@ -1,0 +1,168 @@
+/* 集团业务样式 */
+.cont-banners{
+	width: 80%;
+	text-align: center;
+	height: auto;
+}
+.cont_group{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	padding-top: 100px;
+	color: white;
+}
+.group-introduction-box{
+    background: url(../images/group/branch_office@2x.png) no-repeat center;
+}
+iframe{
+	padding: 0;
+	margin: 0;
+}
+.group_row_jieshao{
+	margin-top: 30px;
+}
+.group_row_jieshao p{
+	margin-bottom: 0 !important;
+}
+.group_maps{
+	width: 100%;
+	height: 800px;
+	background: url(../images/group/map@2x1.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.group_map_beijing{
+	text-align: center;
+	padding-top: 125px;
+}
+.group_map_beijing div img{
+	width: 100%;
+}
+.group_box{
+	width: 43%;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/group/map_beijing@2x1.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.zhezhao{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.85);
+	display: none;
+	z-index: 1;
+}
+.aa{
+	position: absolute;
+	top: -675%;
+    left: -814%;
+    display: none;
+}
+.xianggangaa{
+    top: -1334%;
+    left: -489%;
+
+}
+.xinjiang_hover:hover .aa{
+	display: block;
+}
+.shandong_zhezhao{
+	position: absolute;
+	z-index: 3;
+}
+/*省份*/
+.group_xinjiang{
+	text-align: center;
+	position: absolute;
+    top: 31%;
+    left: 21%;
+    line-height: 1; 
+}
+.group_xinjiang p{
+	margin: 0;
+	font-size: 12px;
+}
+.group_map_beijing .xinjiang_hover>img{
+	width: 9px !important;
+	height: 9px !important;
+	line-height: 0;
+	border-radius: 100%;
+}
+.group_qinghai{
+    top: 46%;
+    left: 42%;
+}
+.group_shnadong{
+    left: 75%;
+    top: 43%;
+}
+.group_yunnan{
+	top: 78%;
+    left: 46%; 
+}
+.group_guangxi{
+	top: 80%;
+    left: 61%; 
+}
+.group_xianggang{
+    top: 83.5%;
+    left: 68.8%
+}
+.group_xianggang p{
+	float: left;
+	padding-top: 2px;
+}
+.group_xianggang .qinghai_hover{
+	float: left;
+	margin-left: 3px;
+}
+.group_shenzhen{
+    top: 79%;
+    left: 72.8%;
+}
+.group_shanghai{
+    top: 57%;
+    left: 85%;
+}
+.group_jiangsu{
+    top: 54%;
+    left: 81.5%;
+}
+.group_ningxia{
+	top: 42%;
+    left: 55%;
+}
+.group_tenggeli{
+    top: 37%;
+    left: 52%;
+}
+.group_baotou{
+    top: 35%;
+    left: 58.5%
+}
+.group_shanxi{
+	top: 41%;
+    left: 66%;
+}
+.group_shanxi1{
+    top: 51%;
+    left: 60%;
+}
+.group_henan{
+    top: 52%;
+    left: 69%;
+}
+.group_tongliao{
+	top: 23%;
+    left: 80%;
+}
+.group_liaoning{
+    top: 29%;
+    left: 84%;
+}
