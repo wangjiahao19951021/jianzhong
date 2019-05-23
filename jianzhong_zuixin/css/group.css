@@ -179,3 +179,38 @@ iframe{
 	top: -673%;
     left: -525%;
 }
+.group_xinjiang h4, .group_xinjiang h5, .group_xinjiang p{
+	cursor: pointer;
+}
+.group_zhehao_yunnan1 .main-subsidiary-box, 
+.group_zhehao_guangxi1 .main-subsidiary-box, 
+.group_zhehao_xianggang1 .main-subsidiary-box, 
+.group_zhehao_jiangsu3 .main-subsidiary-box, 
+.group_zhehao_jiangsu1 .main-subsidiary-box, 
+.group_zhehao_liaoning1 .main-subsidiary-box{
+	width: 75rem;
+    height: 45rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../images/beijing.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.group_zhehao_shanghai1 .main-subsidiary-box{
+	width: 75rem;
+    height: 45rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../images/subsidiary/shanghai.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.wrap-subsidiary-box .tc{
+	color: #07c6d2 !important;
+}
