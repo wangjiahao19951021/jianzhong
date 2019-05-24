@@ -214,3 +214,24 @@ iframe{
 .wrap-subsidiary-box .tc{
 	color: #07c6d2 !important;
 }
+.group_zhehao_xinjaing1 .cont-subsidiary > .row > .col-md-8{
+	min-height: 400px;
+}
+.group_zhehao_xinjaing1 .fenye2, .group_zhehao_xinjaing1 .fenye3{
+	display: none;
+}
+.group_zhehao_shandong4 .fenye2{
+	display: none;
+}
+.group_zhehao_baotou1 .fenye2{
+	display: none;
+}
+.group_zhehao_beijing1 .fenye2{
+	display: none;
+}
+.group_zhehao_guangxi1 .fenye2{
+	display: none;
+}
+.group_zhehao_jiangsu1 .fenye2{
+	display: none;
+}
