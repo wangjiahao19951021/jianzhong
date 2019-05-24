@@ -2360,12 +2360,30 @@
 			
 			//返回顶部动画版
 			function smoothscroll(){
+				//if IE9 不支持的话转为setTimeout
+				window.requestAnimationFrame = window.requestAnimationFrame||function (fn) {return 	setTimeout(fn,1000/60)};
+		    	window.cancelAnimationFrame = window.cancelAnimationFrame ||clearTimeout;
 			    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
-			    if (currentScroll > 0) {
-			         window.requestAnimationFrame(smoothscroll);
-			         window.scrollTo (0,currentScroll - (currentScroll/5));
+			    if (isIE()) {
+			    	if (currentScroll > 2) {
+				         window.requestAnimationFrame(smoothscroll);
+				         window.scrollTo (0,currentScroll - (currentScroll/5));
+			    	}
+			    } else {
+			    	if (currentScroll > 0) {
+				         window.requestAnimationFrame(smoothscroll);
+				         window.scrollTo (0,currentScroll - (currentScroll/5));
+			   		 }
 			    }
 			}
+			//判断是否是IE
+			function isIE() {
+			 	if (!!window.ActiveXObject || "ActiveXObject" in window) {
+			  		return true;
+				} else {
+					return false;
+				}
+			 }
 			//返回顶部			
 			$(".group_fanhui_top").click(function () {
 				smoothscroll ();
@@ -2377,6 +2395,7 @@
 		            $(".group_fanhui_top").fadeOut(600);
 		        }
 		    });
+			
 			
 			$(".xinjiang_hover").hover(function() {
 				$(".zhezhao").show();
