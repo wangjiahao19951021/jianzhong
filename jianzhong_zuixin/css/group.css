@@ -248,3 +248,14 @@ iframe{
 	width: 100%;
 	height: 100%;
 }
+.main-subsidiary-box .guanbi{
+	position: absolute;
+    top: 4%;
+    right: 3%;
+    width: 25px;
+    height: 25px;
+}
+.main-subsidiary-box img{
+	width: 100%;
+	height: 100%;
+}
