@@ -8,95 +8,374 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/share.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="lib/animate.css/animate.css">
 
 	<script src="lib/jquery-1.11.3/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 	<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script src="lib/wow/wow.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=OpP4Ry6pP7dtOK7LZsBXsCGdRrgzm4G5"></script>
+	
 	<title>联系我们</title>
 </head>
 
 <body>
-	<!-- 集团分公司 -->
-	<div class="wrap-filiale-box">
-		<div class="container">
-			<!-- 标题 -->
-			<div>
-				<h1>集团分公司</h1>
-				<span></span>
-			</div>
-		</div>
 
-		<!-- 内容 -->
-		<div class="main-filiale-box">
+	<!-- 导航 -->
+    <div class="wrap-header-box">
 			<div class="container">
-				<!-- 互联网资讯 -->
-				<div class="row internet-filiale-box">
-					<div class="col-md-12 tc">
-						<p>互联网咨询平台:021-59830697</p>
-					</div>
+				<div class="header-logo">
+					<img src="images/LOGO@2x.png" title="" alt="" width="100%" height="100%">
 				</div>
-	
-				<!-- 大宗原料 -->
-				<div class="material-filiale-box">
-					<!-- 标题 -->
-					<div class="row title-material-filiale">
-						<div class="col-md-12 tc">
-							<h1>大宗原料</h1>
-							<span></span>
+				<div class="nav-box">
+					<div class="nav-header tc">
+						<div onclick="href_nav1()">首页</div>
+						<span></span>
+						<div onclick="href_nav2()">集团业务</div>
+						<span></span>
+						<div  class="nav_active" onclick="href_nav3()">联系我们</div>
+						<span></span>
+					</div>
+					<div class="languageTab-header tc cn-active">
+						<div class="lang_color" onclick="zhongwen()">
+							<span>中文</span>
+						</div>
+						<div onclick="yingwen()">
+							<span>En</span>
 						</div>
 					</div>
-					<!-- 内容 -->
-					<div class="row main-material-filiale">
-						<div class="col-md-4">
-							<p>(西北)新疆:0991-5506787</p>
-							<p>(东北)沈阳:024-82574233</p>
-						</div>
-						<div class="col-md-4">
-							<p>宁夏:0951-4079770</p>
-							<p>(华北)北京:010-52858396</p>
-						</div>
-						<div class="col-md-4">
-							<p>青海:0991-5506787</p>
-							<p>(东北)沈阳:024-82574233</p>
-						</div>
-					</div>
+					<div class="clear"></div>
 				</div>
-	
-				<!-- 其他分公司 -->
-				<div class="other-filiale-box">
-					<!-- 标题 -->
-					<div class="row title-other-filiale">
-						<div class="col-md-12 tc">
-							<h1>其他分公司</h1>
-							<span></span>
-						</div>
-					</div>
-					<!-- 内容 -->
-					<div class="row main-other-filiale">
-						<div class="col-md-4">
-							<p>生态农林养生:0951-4081770</p>
-							<p>物流配送:0533-6090208</p>
-							<p>劳动安全防护:0516-68978578</p>
-						</div>
-						<div class="col-md-4">
-							<p>区块链供应商:15510150951</p>
-							<p>金融服务:021-59830697</p>
-							<p>户外拓展训练:0951-5664345</p>
-						</div>
-						<div class="col-md-4">
-							<p>原料仓储:18609531203</p>
-							<p>会议培训:010-52858396</p>
-						</div>
+			</div>
+		</div>
+
+	<!-- banner -->
+	<div class="wrap-banner-box">
+		<div class="main-banner-box">
+			<img src="images/contact/contact_banner.png" title="" alt="" width="100%" height="100%">
+			<div class="cont-banner-box tc">
+				<h2>诚信&nbsp;&nbsp;&nbsp;敬业&nbsp;&nbsp;&nbsp;务实&nbsp;&nbsp;&nbsp;共赢</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- 联系我们 -->
+	<div class="wrap-contact-box">
+		<div class="bgc-title-contact">
+			<img src="images/contact/contact_us@2x.png" title="" alt="" width="100%" height="100%">
+		</div>
+		<div class="container">
+			<div class="title-contact tc">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<h1>联系我们</h1>
+						<span></span>
 					</div>
 				</div>
 			</div>
 		</div>
 
+		<div class="main-contact-box">
+			<div class="cont-contact-box">
+				<div class="bgc1-main-contact">
+					<img src="images/contact/contact_us1.png" title="" alt="" width="100%" height="100%">
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="L_cont-contact-box">
+								<div class="L_cont-img">
+									<img src="images/contact/contact_us2.png" title="" alt="" width="100%"
+										height="100%">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="R_cont-contact-box">
+								<div class="R_cont-one">
+									<div class="one_title tc">
+										<div class="row">
+											<div class="col-md-12 col-xs-12">
+												<h3>大宗原料</h3>
+												<span></span>
+											</div>
+										</div>
+									</div>
+									<div class="one_cont">
+										<div class="row">
+											<div class="col-md-6 col-xs-6">
+												<div class="one_cont-cont">
+													<p>(西北)新疆：0991-5506787</p>
+													<p>(西北)宁夏：0951-4079770</p>
+													<p>(西北)青海：0971-6107617</p>
+												</div>
+											</div>
+											<div class="col-md-6 col-xs-6">
+												<div class="one_cont-cont">
+													<p>(东北)沈阳：024-82574233</p>
+													<p>(华北)北京：010-52858396</p>
+													<p>(华东)广西：15809500597</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="R_cont-two">
+									<div class="row">
+										<div class="col-md-6 col-xs-6">
+											<div class="two_cont">
+												<div class="R_cont-title tc">
+													<h3>其他分公司</h3>
+													<span></span>
+												</div>
+												<div class="R_cont-cont">
+													<p>生态农林养生：0951-4081770</p>
+													<p>区块链供应链：15510150951</p>
+													<p>原 料 仓 储：18609531203</p>
+													<p>物 流 配 送：0533-6090208</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-xs-6">
+											<div class="two_cont">
+												<div class="R_cont-title tc">
+													<h3>其他分公司</h3>
+													<span></span>
+												</div>
+												<div class="R_cont-cont">
+													<p>生态农林养生：0951-4081770</p>
+													<p>区块链供应链：15510150951</p>
+													<p>原 料 仓 储：18609531203</p>
+													<p>物 流 配 送：0533-6090208</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<!-- 地址 -->
+			<div class="wrap-site-box">
+				<div class="container">
+					<div class="main-site-box">
+						<div class="row">
+							<div class="col-md-6 col-xs-12">
+								<div class="L-site-box">
+									<div class="L_cont-site">
+										<div class="L_site_cont-one">
+											<img src="images/contact/contact_one.png" title="" alt="" width="100%"
+												height="100%">
+										</div>
+										<div class="L_site_cont-three"></div>
+										<div class="L_site_cont-two">
+											<p>总部地址</p>
+											<p>北京市通州区土桥自由筑三期142号楼6段6102室</p>
+										</div>
+									</div>
+								</div>
+								<div class="L-site-box">
+									<div class="L_cont-site">
+										<div class="L_site_cont-one">
+											<img src="images/contact/contact_two.png" title="" alt="" width="100%"
+												height="100%">
+										</div>
+										<div class="L_site_cont-three"></div>
+										<div class="L_site_cont-two">
+											<p>互联网咨询平台</p>
+											<p>电话：010-52858391</p>
+										</div>
+									</div>
+								</div>
+								<div class="L-site-box">
+									<div class="L_cont-site">
+										<div class="L_site_cont-one">
+											<img src="images/contact/contact_three.png" title="" alt="" width="100%"
+												height="100%">
+										</div>
+										<div class="L_site_cont-three"></div>
+										<div class="L_site_cont-two">
+											<p>电子邮箱</p>
+											<p>jzgroup@wc-metal.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<div class="R-site-box">
+									<!--<iframe frameborder="0" scrolling="no" height="100%" width="100%"
+										src="map.html"></iframe>-->
+										
+										<!--百度地图容器-->
+    <div style="width:85%;height:300px;;border:#ccc solid 1px;font-size:12px" id="map"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
+
+
+	<!--返回顶部-->
+	<div class="group_fanhui_top" style="display: none;">
+		<img src="images/fanhui_top.png" />
+	</div>
+
+	<!-- 底部 -->
+	<div class="wrap-foot-box">
+		<div class="container">
+			<div class="main-foot-about">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="cont-foot-box">
+							<div class="nav-foot">
+								<div class="row">
+									<div class="col-md-4">
+										<p>联系我们</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="cont-foot">
+								<div class="row">
+									<div class="col-md-12">
+										<p>地址：北京市通州区土桥自由筑三期142号楼6段6102室</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<p>电子邮箱：jzgroup@wc-metal.com</p>
+									</div>
+									<div class="col-md-6">
+										<p>电话：010-52858391</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="erweima-foot">
+							<img src="images/erweima.jpg" width="100%" height="100%" />
+							<p>扫描二维码了解我们</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 版权 -->
+		<div class="main-foot-copyright">
+			<div class="container">
+				<p>沪ICP备15035730号-3</p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		//返回顶部动画版
+		function smoothscroll() {
+			//if IE9 不支持的话转为setTimeout
+			window.requestAnimationFrame = window.requestAnimationFrame || function (fn) {
+				return setTimeout(fn, 1000 / 60)
+			};
+			window.cancelAnimationFrame = window.cancelAnimationFrame || clearTimeout;
+			var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+			if (isIE()) {
+				if (currentScroll > 2) {
+					window.requestAnimationFrame(smoothscroll);
+					window.scrollTo(0, currentScroll - (currentScroll / 5));
+				}
+			} else {
+				if (currentScroll > 0) {
+					window.requestAnimationFrame(smoothscroll);
+					window.scrollTo(0, currentScroll - (currentScroll / 5));
+				}
+			}
+		}
+		//判断是否是IE
+		function isIE() {
+			if (!!window.ActiveXObject || "ActiveXObject" in window) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		//返回顶部			
+		$(".group_fanhui_top").click(function () {
+			smoothscroll();
+		})
+		$(window).scroll(function () {
+			if ($(window).scrollTop() >= 100) {
+				$(".group_fanhui_top").fadeIn(600);
+			} else {
+				$(".group_fanhui_top").fadeOut(600);
+			}
+		});
+	</script>
+	<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(121.088612,31.140296),17);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"",title:"",imageOffset: {width:-46,height:-21},position:{lat:31.13977,lng:121.089236}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT,type:1});
+      map.addControl(navControl);
+    }
+    var map;
+      initMap();
+  </script>
+
 </body>
 
 </html>

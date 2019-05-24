@@ -1,14 +1,25 @@
 /* index样式 */
+
 /* banner */
 .wrap-banner-box{
 	width: 100%;
 	height: auto;
 }
 .img-banner{
+	width: 100%;
+	height: 47rem;
 	position: relative;
 }
+.video-banner{
+	width: 100%;
+	height: 47rem;
+}
+.video-banner > video{
+	width: 100%;
+	object-fit: fill;
+}
 .cont-banner{
-	width: 50rem;
+	width: 45rem;
 	height:30rem;
 	position: absolute;
 	left: 0;
@@ -25,13 +36,17 @@
 	width: 140px;
 	height: 255px;
 	position: absolute;
-	left: 8%;
+	left: 20px;
 	top: 0;
 }
 .title-banner{
+	width: 100%;
+	height: auto;
 	position: absolute;
 	top: 10%;
-	right: 17%;
+	right: -225px;
+	left: 0;
+	margin: auto;
 }
 .title-banner > p{
 	color: #951a21;
@@ -58,14 +73,22 @@
 	width: 100%;
 	height: auto;
 	margin-top: 5rem;
-	margin-bottom: 6rem;
+	margin-bottom: 8rem;
 	position: relative;
+}
+.bgc1-introduction{
+	width: 28%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .title-introduction{
 	width: 100%;
 	height: 4.5rem;
-	margin-bottom: 3rem;
-	background:url(../images/index/introduction@2x.png) no-repeat center;
+	margin-bottom: 4rem;
+	
 }
 .title-introduction h1{
 	font-size: 3rem;
@@ -84,6 +107,7 @@
 .cont-introduction{
 	width: 100%;
 	height: auto;
+	padding-bottom: 2rem;
 }
 .cont-introduction p{
 	font-size: 1.5rem;
@@ -115,16 +139,23 @@
 	position: absolute;
 	left: 5%;
 	right: 0;
-	bottom: -20px;
+	bottom: 0;
 }
 
 /* ceo */
 .wrap-ceo-box{
 	width: 100%;
 	height: auto;
-	margin-top: 4rem;
+	margin-top: 8rem;
+	position: relative;
 }
-
+.bgc-ceo{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .L_img-ceo{
 	width: 100%;
 	height: 100%;
@@ -152,6 +183,23 @@
 	top: 270px;
 	right: -80px;
 }
+.R_cont-box{
+	width: 100%;
+	height: auto;
+}
+.bgc2-ceo{
+	width: 50%;
+	height: auto;
+	position: absolute;
+	top: -30px;
+    right: 105px;
+}
+.R_cont-ceo{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
 .R_cont-ceo > h3{
 	font-size: 2.5rem;
 	padding-left: 20px;
@@ -188,6 +236,14 @@
 	height: auto;
 	margin-top: 4rem;
 	margin-bottom: 5rem;
+	position: relative;
+}
+.bgc-originator{
+	width: 52%;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	right: 0;
 }
 .title-originator-box{
 	padding-bottom: 2.6rem;
@@ -226,10 +282,25 @@
 	width: 100%;
 	height: auto;
 	margin-top: 3rem;
+	position: relative;
+}
+.bgc1-yuanzhang{
+	position: absolute;
+	top: -40px;
+    left: -34px;
+}
+.bgc2-yuanzhang{
+	width: 70%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
 }
 .title-yuanzhang{
 	width: 100%;
 	height: auto;
+	position: absolute;
+	z-index: 1;
 }
 .title-yuanzhang > h3{
 	border-left: 5px solid #8E0109;
@@ -244,7 +315,7 @@
 }
 .cont-yuanzhang{
 	padding-left: 25px;
-	margin-top: 1.5rem;
+	margin-top: 8rem;
 }
 .cont-yuanzhang p{
 	line-height: 2rem;
@@ -270,7 +341,7 @@
 .wrap-develop-box{
 	width: 100%;
 	height: 12rem;
-	margin: 3rem 0;
+	margin: 4rem 0;
 	background: url(../images/index/index_fazhan.png)  no-repeat center;
 	background-size: 100% 100%;
 	
@@ -300,14 +371,29 @@
 	width: 100%;
 	height: auto;
 	margin-bottom: 3rem;
+	position: relative;
 }
-.title-enterprise{
+.bgc-enterprise{
+	width: 15%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.title-enterprise h1{
 	font-size: 3rem;
     vertical-align: bottom;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 1rem;
     color: #8e0109;
+}
+.title-enterprise span{
+	width: 5rem;
+    height: 3px;
+    display: inline-block;
+    background-color: #8e0109;
 }
 .main-enterprise-box{
 	width: 100%;
@@ -323,16 +409,212 @@
 	margin: 3rem auto;
 	background: rgba(243,243,243, 0.8);
 }
+.cont-enterprise > div{
+	padding: 0.5rem 0;
+}
+.cont-enterprise > div:first-child{
+	padding-top: 0.3rem;
+}
+.cont-enterprise > div:nth-child(3){
+	padding-bottom: 0.5rem;
+}
+.cont-enterprise h3{
+	font-size: 1.5rem;
+	color: #8E0109;
+	margin-top:1rem;
+	margin-bottom: 2rem;
+}
+.cont-enterprise p{
+	font-size: 1.5rem;
+	margin-top:0.5rem;
+	margin-bottom: 0.3rem;
+}
 
 /* 公司历程 */
 .wrap-course-box{
 	width: 100%;
 	height: auto;
 	margin-top: 2rem;
-	margin-bottom: 2rem;
+	position: relative;
+}
+.bgc-course{
+	width: 15%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.title-course{
+	width: 100%;
+	height: auto;
+	margin-bottom: 2.5rem;
+}
+.title-course h1{
+	font-size: 3rem;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 1rem;
+    color: #8e0109;
+}
+.title-course span{
+	width: 5rem;
+    height: 3px;
+    display: inline-block;
+    background-color: #8e0109;
+}
+.time-course-box{
+	width: 100%;
+	height: auto;
 	background: url(../images/index/index_course_bgc.png) no-repeat center;
 	background-size: 100% 100%;
+	margin-top: 2rem;
 }
 .L-time-course{
-	
+	width: 100%;
+	height: auto;
+}
+.L-time{
+	width: 100%;
+	height: auto;
+}
+.L-time>li{
+	width: 100%;
+	height: auto;
+}
+.L-timebox{
+	width: 100%;
+	height: auto;
+}
+.L-timetext{
+	width: 35%;
+	height: auto;
+	line-height: 35px;
+	padding-right: 2rem;
+	display: inline-block;
+	border-right: 3px solid #e23131;
+	cursor: pointer;
+	font-size: 1.6rem;
+}
+.time_active .L-timetext{
+	font-size: 2rem;
+	color: #ff1818;
+}
+.time_active .time_click{
+	display: block;
+}
+.time_click{
+	width: 23%;
+	height: 26px;
+	float: right;
+	background: url(../images/index/index_timebox1.png) no-repeat center;
+	background-size: 100% 100%;
+	color: #ffffff;
+	line-height: 26px;
+	padding-left: 5px;
+	margin-right: 12rem;
+	display: none;
+}
+
+#arrow{position:fixed;top:50%;right:30px;}
+
+
+#arrow ul li{
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+}
+#arrow ul li:active{background-color:#000;}
+#arrow ul .arrow_active{
+	-webkit-transition:all 0.1s ease-in;
+	-moz-transition:all 0.1s ease-in;
+	-o-transition:all 0.1s ease-in;
+	transition:all 0.1s ease-in;
+}
+#arrow ul .arrowup{background-position:0px -26px;margin-bottom:10px;}
+#arrow ul .arrowdown{background-position:0px 0px;}
+
+.R-time-course{
+	width: 100%;
+	height: auto;
+}
+.R-time{
+	width: 100%;
+	height: 60rem;
+	overflow: hidden;
+	margin-bottom:2rem;
+}
+.R-time > li{
+	width: 100%;
+	height: 17rem;
+	cursor: pointer;
+}
+.L-Rtime{
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}
+.L-Rtime > p{
+	font-size: 2.2rem;
+	color: #e23131;
+}
+.M-Rtime{
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	position: relative;
+}
+.M-Rtime .time_circle1{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 2px solid #e23131;
+	position: relative;
+}
+.thiscur .time_circle1{
+	border: 4px solid #e23131 !important;
+}
+.M-Rtime .time_circle2{
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #e23131;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.M-Rtime .time_dotted{
+	height: 15rem;
+	display: inline-block;
+	border: 2px dashed #e23131;
+	position: absolute;
+	top: 20px;
+	left: 35px;
+}
+.R-Rtime{
+	width: 70%;
+	height: auto;
+    float: right;
+}
+.R-Rtime > h5{
+	margin-top: 0;
+	margin-bottom: 0.3rem;
+	color: #c6c6c6;
+	font-size: 1.4rem;
+}
+.R-Rtime > p{
+	margin-bottom: 0;
+	width: 80%;
+	height: auto;
+	font-size: 1.5rem;
+}
+.vis_hide{
+	visibility: hidden;
 }

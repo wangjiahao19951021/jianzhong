@@ -3,44 +3,84 @@
 .wrap-header-box{
     width: 100%;
     height: auto;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    background-color: #FFFFFF;
 }
 .header-logo{
-    width: 30%;
+    width: 16%;
     float: left;
+    margin-bottom: 1rem;
+}
+.nav-box{
+    width: 40%;
+    height: auto;
+    padding-top: 2rem;
+    float: right;
+    cursor: pointer;
 }
 .nav-header{
-    width: 62%;
+    width: 65%;
     height: auto;
     float: left;
-    padding-left: 35rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
-.nav-header li{
+.nav-header > div{
     float: left;
-    width: 30%;
-    text-align: center;
+    height: auto;
+    padding-bottom: 1.8rem;
+    margin-left: 2rem;
+}
+.nav-header > span{
+    float: left;
+    width: 2rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    border-right: 2px solid #1d1d1d;
+}
+.nav-header > div:hover{
+    color: #8e0109;
+    border-bottom: 2px solid #8e0109;
+}
+/* .nav-header li{
+    float: left;
+    height: auto;
+    padding-bottom: 1.8rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
 }
 .nav-header li span{
     display: inline-block;
-    width: 1rem;
+    width: 0.5rem;
     height: 0.8rem;
     border-right: 2px solid #1d1d1d;
+} */
+.nav_active{
+    color: #8e0109;
+    border-bottom: 2px solid #8e0109;
 }
+
 
 /* 中英文切换样式 */
 .languageTab-header{
-    width: 8%;
-    height: 1.5625rem;
+    width: 18%;
+    height: 1.7rem;
     background-color: #FFFFFF;
     position: relative;
     float: left;
+    margin-left: 2rem;
 }
-.languageTab-header>span{
-    display: inline-block;
-    width: 50%;
+.languageTab-header > div{
+    width: 49%;
+    height: 1.8rem;;
     float: left;
 }
-.cn-active{
+.languageTab-header > div > span{
+    margin-top: 0.1rem;
+    margin-right: 0.2rem;
+    display: inline-block;
+}
+/* .cn-active{
     border-top: 18px solid red;
     border-right: 12px solid transparent;
     color: #FFFFFF;
@@ -48,6 +88,17 @@
 .en-active{
     border-bottom: 18px solid red;
     border-left: 12px solid transparent;
+    color: #FFFFFF;
+} */
+.cn-active{
+    background: url(../images/cn_active.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.en-active{
+    background: url(../images/en_active.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.lang_color{
     color: #FFFFFF;
 }
 
@@ -62,13 +113,18 @@
     background-color: #313131;
     padding-bottom: 0.5rem;
 }
+.cont-foot-box{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
 .nav-foot{
     margin-top: 1rem;
     font-size: 2rem;
 }
 .cont-foot{
-    margin-top: 0.5rem;
-    color: #bcbcbc;
+    margin-top: 0;
+    color:#ebebeb;
 }
 .cont-foot p{
     margin-top: 2.4rem;
@@ -76,6 +132,8 @@
 }
 .erweima-foot{
     padding-top: 2rem;
+    float: right;
+    padding-right: 5rem;
 }
 .erweima-foot>img{
     width: 8rem;
@@ -93,4 +151,30 @@
 .main-foot-copyright p{
     margin-top: 0.625rem;
 }
+
+/*返回顶部*/
+.group_fanhui_top{
+	position: fixed;
+	bottom: 10%;	
+	right: 3%;
+	width: 30px;
+	height: 30px;
+	display: none;
+}
+.group_fanhui_top img{
+	width: 100%;
+	height: 100%;
+}
+.main-subsidiary-box .guanbi{
+	position: absolute;
+    top: 4%;
+    right: 3%;
+    width: 25px;
+    height: 25px;
+}
+.main-subsidiary-box img{
+	width: 100%;
+	height: 100%;
+}
+
 /* 各页面共用样式结束 */

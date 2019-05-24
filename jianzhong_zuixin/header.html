@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="renderer" content="webkit">
@@ -11,25 +12,40 @@
     <link rel="stylesheet" href="lib/animate.css/animate.css">
 
     <script src="lib/jquery-1.11.3/jquery.min.js"></script>
+    <script src="js/index.js"></script>
     <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <title>建中集团</title>
 </head>
+
 <body>
     <div class="wrap-header-box">
-		<div class="container">
-			<h1 class="header-logo"></h1>
-			<ul class="nav-header">
-				<li>首页<span></span></li>
-				<li>集团业务<span></span></li>
-				<li>联系我们<span></span></li>
-			</ul>
-			<div class="languageTab-header">
-				<span>中文</span>
-				<span>En</span>
-			</div>
-		</div>
-	</div>
+        <div class="container">
+            <div class="header-logo">
+                <img src="images/LOGO@2x.png" title="" alt="" width="100%" height="100%">
+            </div>
+            <div class="nav-box">
+                <div class="nav-header tc">
+                    <div class="nav_active" onclick="href_nav1()">首页</div>
+                    <span></span>
+                    <div onclick="href_nav2()">集团业务</div>
+                    <span></span>
+                    <div onclick="href_nav3()">联系我们</div>
+                    <span></span>
+                </div>
+                <div class="languageTab-header tc cn-active">
+                    <div class="lang_color" onclick="zhongwen()">
+                        <span>中文</span>
+                    </div>
+                    <div onclick="yingwen()">
+                        <span>En</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>

@@ -1,54 +1,211 @@
 /* 联系我们样式 */
 
-
-.main-filiale-box{
+.wrap-banner-box{
     width: 100%;
     height: auto;
-    background-color: #f6f6f6;
 }
-.internet-filiale-box{
+.main-banner-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.cont-banner-box{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.cont-banner-box > h2{
+    color: #ffffff;
+    font-size: 4rem;
+}
+.wrap-contact-box{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    position: relative;
+}
+.bgc-title-contact{
+    width: 20%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.title-contact{
+    width: 100%;
+    height: auto;
+}
+.title-contact h1{
+    font-size: 3rem;
+	vertical-align: bottom;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 1rem;
+	color: #8e0109;
+}
+.title-contact span{
+	width: 5rem;
+	height: 3px;
+	display: inline-block;
+	background-color: #8e0109;
+}
+.main-contact-box{
+    width: 100%;
+    height: auto;
+    background: url(../images/contact/contact_bgc.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.cont-contact-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.bgc1-main-contact{
+    width: 45%;
+    height: 40rem;
+    padding-top: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.L_cont-contact-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.L_cont-contact-box .L_cont-img{
+    position: absolute;
+    top: 45px;
+    right: 25px;
+}
+.R_cont-contact-box{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+.R_cont-one{
+    width: 100%;
+    height: auto;
+}
+.one_title{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.one_title h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+.one_title span{
+    width: 6rem;
+	height: 10px;
+    display: inline-block;
+    border-top: 3px solid #8e0109;
+}
+.one_cont{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.one_cont .one_cont-cont{
+    width: 100%;
+    height: auto;
+    padding-left: 4rem;
+}
+.one_cont .one_cont-cont > p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.R_cont-two{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+.two_cont{
+    width: 100%;
+    height: auto;
+    padding-left: 4rem;
+}
+.two_cont .R_cont-title h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+.two_cont .R_cont-title span{
+    width: 7rem;
+	height: 10px;
+    display: inline-block;
+    border-top: 3px solid #8e0109;
+}
+.two_cont .R_cont-cont{
+    width: 100%;
+    height: auto;
     margin-top: 2rem;
 }
-.material-filiale-box{
+.two_cont .R_cont-cont > p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.wrap-site-box{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
     margin-bottom: 2rem;
 }
-.title-material-filiale{
-    margin-bottom: 0.5rem;
+.main-site-box{
+    width: 100%;
+    height: auto;
 }
-.title-material-filiale > div > h1{
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 0.1rem;
+.L-site-box{
+    width: 100%;
+    height: auto;
+    margin-left: 6rem;
 }
-.title-material-filiale > div > span{
+.L_cont-site{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+}
+.L_cont-site > .L_site_cont-one{
+    width: 10%;
+    height: auto;
     display: inline-block;
-    width: 5rem;
-    text-align: center;
-    border-bottom: 3px solid #8e0109;
 }
-.main-material-filiale > div{
-    padding-left: 7rem;
+.L_cont-site > .L_site_cont-one > img{
+    vertical-align: bottom;
 }
-.main-material-filiale > div > p{
-    margin-top: 2rem;
-}
-.title-other-filiale{
-    margin-bottom: 0.5rem;
-}
-.title-other-filiale > div > h1{
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 0.1rem;
-}
-.title-other-filiale > div > span{
+.L_cont-site > .L_site_cont-two{
+    width: 80%;
+    height: auto;
     display: inline-block;
-    width: 5rem;
-    text-align: center;
-    border-bottom: 3px solid #8e0109;
+    padding-left: 2.5rem;
 }
-.main-other-filiale > div{
-    padding-left: 7rem;
+.L_cont-site > .L_site_cont-two > p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    line-height: 2.2rem;
 }
-.main-other-filiale > div > p{
-    margin-top: 2rem;
+
+.L_cont-site > .L_site_cont-three{
+    width: 6%;
+    height: 3rem;
+    display: inline-block;
+    border-right: 5px solid #c9c9c9;
+}
+.R-site-box{
+    width: 100%;
+    height: auto;
 }
