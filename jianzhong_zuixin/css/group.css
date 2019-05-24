@@ -235,3 +235,16 @@ iframe{
 .group_zhehao_jiangsu1 .fenye2{
 	display: none;
 }
+/*返回顶部*/
+.group_fanhui_top{
+	position: fixed;
+	bottom: 10%;	
+	right: 3%;
+	width: 30px;
+	height: 30px;
+	display: none;
+}
+.group_fanhui_top img{
+	width: 100%;
+	height: 100%;
+}

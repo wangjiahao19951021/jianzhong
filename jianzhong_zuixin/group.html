@@ -2317,7 +2317,21 @@
 			</div>
 
 		</div>
+		
+		
+		
+		
+		<!--返回顶部-->
+		<div class="group_fanhui_top" style="display: none;">
+			<img src="images/fanhui_top.png"/>
+		</div>
+		
+		
 		<iframe src="footer.html" id="iframepage" name="iframepage" frameBorder=0 scrolling=no width="100%" onLoad="IframeLoadEND();"></iframe>
+		
+		
+		
+		
 		<script>
 			// 定义一个函数，定时调用并刷新iframe高度
 			function reinitIframe() {
@@ -2343,6 +2357,26 @@
 				// 停止定时
 				window.clearInterval(timer1);
 			}
+			
+			//返回顶部动画版
+			function smoothscroll(){
+			    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+			    if (currentScroll > 0) {
+			         window.requestAnimationFrame(smoothscroll);
+			         window.scrollTo (0,currentScroll - (currentScroll/5));
+			    }
+			}
+			//返回顶部			
+			$(".group_fanhui_top").click(function () {
+				smoothscroll ();
+			})
+			$(window).scroll(function() {
+		        if ($(window).scrollTop() >= 100) {
+		            $(".group_fanhui_top").fadeIn(600);
+		        } else {
+		            $(".group_fanhui_top").fadeOut(600);
+		        }
+		    });
 			
 			$(".xinjiang_hover").hover(function() {
 				$(".zhezhao").show();
